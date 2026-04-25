@@ -26,8 +26,15 @@ SECRET_KEY = 'qb1+rd^f3qzf1e-4%2!k2&fub#9z$(ooad(u@f%#_$_p55_b^o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['easyexam-igg.herokuapp.com', '127.0.0.1', 'localhost']
+##ALLOWED_HOSTS = ['easyexam-igg.herokuapp.com', '127.0.0.1', 'localhost']
 
+ALLOWED_HOSTS = [
+    'easyexam-igg.herokuapp.com', 
+    '127.0.0.1', 
+    'localhost', 
+    '.vercel.app',  # This allows all Vercel deployment URLs
+    'sae-mc3x-6c7cmmpfm-prasadjagdale1939s-projects.vercel.app' 
+]
 
 # Application definition
 
